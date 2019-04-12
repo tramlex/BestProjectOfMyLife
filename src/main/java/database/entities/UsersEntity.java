@@ -1,7 +1,9 @@
 package database.entities;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 @Entity
@@ -12,8 +14,11 @@ public class UsersEntity {
     private String name;
     private String sname;
 
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "USERS", cascade = CascadeType.ALL)
-    private Set<AddressEntity> attachments = new HashSet<AddressEntity>();
+
+@OneToMany(fetch = FetchType.LAZY, mappedBy = "user", cascade = CascadeType.ALL)
+private List<AddressEntity> addressEntities;
+
+
 
     @Id
     @Column(name = "ID", nullable = false)

@@ -1,6 +1,7 @@
 package database.entities;
 
 import javax.persistence.*;
+import java.util.Collection;
 
 @Entity
 @Table(name = "ADDRESS", schema = "PUBLIC", catalog = "TEST")
@@ -11,9 +12,9 @@ public class AddressEntity {
     private String street;
     private Integer userId;
 
-    @ManyToOne(fetch = FetchType.LAZY, cascade = CascadeType.ALL)
-    @JoinColumn(name = "user_id" , nullable = false)
-    private UsersEntity usersEntity;
+@ManyToOne(fetch=FetchType.LAZY, cascade=CascadeType.ALL)
+@JoinColumn(name = "user_id")
+private UsersEntity usersEntity;
 
     @Id
     @Column(name = "AID", nullable = false)
