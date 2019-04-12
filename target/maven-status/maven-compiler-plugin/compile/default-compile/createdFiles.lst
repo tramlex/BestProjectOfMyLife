@@ -1,0 +1,14 @@
+database\services\user\UserServiceImpl.class
+database\services\address\AddressServiceImpl.class
+database\services\user\UserService.class
+controllers\TransferDataToJsp.class
+database\entities\UsersEntity.class
+database\services\address\AddressService.class
+database\dao\user\UserDao.class
+database\entities\AddressEntity.class
+controllers\GetNameFromJsp.class
+controllers\SetAddressForUser.class
+database\dao\address\AddressDao.class
+database\dao\address\AddressDaoImpl.class
+database\dao\user\UserDaoImpl.class
+controllers\GetAddressFromJsp.class
