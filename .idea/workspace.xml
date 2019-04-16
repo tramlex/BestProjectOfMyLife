@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="BestProjectOfMyLife:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1c90dbb4-da7a-43d7-9774-56de6cea005f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/entities/AddressEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/entities/AddressEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/entities/UsersEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/entities/UsersEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BestProjectOfMyLife.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BestProjectOfMyLife.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/address.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/address.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/dataTables.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dataTables.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/name.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/name.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/WebApp.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/entities/AddressEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/entities/AddressEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/entities/UsersEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/entities/UsersEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/entities/AddressEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database/entities/AddressEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/entities/UsersEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database/entities/UsersEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/pages/address.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/pages/dataTables.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/pages/name.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,18 +66,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/database/dao/user/UserDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UsersEntity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/database/entities/UsersEntity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -114,7 +110,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddressDaoImpl.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddressDaoImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/database/dao/address/AddressDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -126,11 +122,68 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hibernate.cfg.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+            <state relative-caret-position="340">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="address.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/address.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dataTables.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dataTables.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="name.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/name.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetNameFromJsp.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/controllers/GetNameFromJsp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3298">
+              <caret line="194" lean-forward="true" selection-start-line="194" selection-end-line="194" />
             </state>
           </provider>
         </entry>
@@ -158,9 +211,6 @@
         <option value="$PROJECT_DIR$/src/main/java/database/entities/UserEntity.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/name.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/address.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/dataTables.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/database/dao/address/AddressDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/dao/user/UserDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/dao/user/UserDaoImpl.java" />
@@ -171,11 +221,15 @@
         <option value="$PROJECT_DIR$/src/main/java/controllers/GetNameFromJsp.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/GetAddressFromJsp.java" />
         <option value="$PROJECT_DIR$/src/main/java/controllers/TransferDataToJsp.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-settings.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
         <option value="$PROJECT_DIR$/src/main/java/database/entities/UsersEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/entities/AddressEntity.java" />
         <option value="$PROJECT_DIR$/src/main/java/database/dao/address/AddressDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-settings.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/dataTables.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" />
       </list>
     </option>
   </component>
@@ -211,6 +265,11 @@
           <item name="WebApp Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="WebApp Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
       </expand>
       <select />
     </treeState>
@@ -219,10 +278,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="224" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1727" />
+    <option name="height" value="923" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -281,73 +340,6 @@
               <item name="BestProjectOfMyLife" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BestProjectOfMyLife" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="address" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BestProjectOfMyLife" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BestProjectOfMyLife" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BestProjectOfMyLife" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BestProjectOfMyLife" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="address" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BestProjectOfMyLife" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebApp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BestProjectOfMyLife" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -372,7 +364,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -392,11 +384,17 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="spring" />
   </component>
   <component name="RecentsManager">
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="database.entities" />
       <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ATimofeev\Documents\GitHub\Java\Work\BestProjectOfMyLife\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\ATimofeev\Documents\GitHub\Java\Work\BestProjectOfMyLife\src\main\webapp\WEB-INF\pages" />
+      <recent name="C:\Users\ATimofeev\Documents\GitHub\Java\Work\BestProjectOfMyLife\src\main\webapp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -454,13 +452,14 @@
       <listeners />
     </configuration>
     <configuration name="Test" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.14" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/name.jsp" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <file path="$PROJECT_DIR$/target/WebApp.war">
+        <artifact name="BestProjectOfMyLife:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
-        </file>
+        </artifact>
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_WebApp" />
@@ -518,6 +517,11 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="BestProjectOfMyLife:war exploded" />
+        </option>
+      </method>
     </configuration>
   </component>
   <component name="SvnConfiguration">
@@ -530,21 +534,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555054880484</updated>
-      <workItem from="1555054885945" duration="15860000" />
+      <workItem from="1555054885945" duration="23766000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15860000" />
+    <option name="totallyTimeSpent" value="23766000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.16089386" />
-      <window_info anchor="right" id="Maven Projects" order="0" visible="true" weight="0.11140725" />
+      <window_info anchor="right" id="Maven Projects" order="0" visible="true" weight="0.10394456" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="1" />
@@ -557,14 +561,14 @@
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32960895" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32960895" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="9" visible="true" weight="0.32960895" />
-      <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Spring" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" />
-      <window_info id="Persistence" order="0" sideWeight="0.14166667" side_tool="true" visible="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.85833335" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49946696" weight="0.32960895" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.32960895" />
+      <window_info anchor="bottom" id="Spring" order="1" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32960895" />
+      <window_info id="Persistence" order="0" sideWeight="0.14189944" side_tool="true" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.85810053" visible="true" weight="0.25" />
       <window_info id="Web" order="5" sideWeight="0.14" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Theme Preview" order="4" />
       <window_info id="Favorites" order="4" sideWeight="0.14" side_tool="true" weight="0.25" />
@@ -621,29 +625,8 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/64d596c8-68c3-41fc-bf95-ea35b73f7e96/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/dataTables.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
-          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="uml://SpringLocalModels/module=BestProjectOfMyLife">
       <provider selected="true" editor-type-id="UmlEditorProvider">
@@ -707,23 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/name.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/GetNameFromJsp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controllers/GetAddressFromJsp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -731,20 +697,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/address.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -844,6 +796,72 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.5.RELEASE/spring-beans-5.1.5.RELEASE.jar!/org/springframework/beans/factory/xml/spring-beans.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="1077" column="47" lean-forward="true" selection-start-line="1077" selection-start-column="47" selection-end-line="1077" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-settings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="51" column="8" lean-forward="true" selection-end-line="51" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/address.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/name.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/dataTables.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/controllers/GetNameFromJsp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3298">
+          <caret line="194" lean-forward="true" selection-start-line="194" selection-end-line="194" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
         </state>
       </provider>
     </entry>
