@@ -26,15 +26,14 @@ public class AddressDaoImpl implements AddressDao {
     @Override
     public List<AddressEntity> getAllAddresses() {
         List<AddressEntity> addresses = sessionFactory.getCurrentSession().createSQLQuery("SELECT * FROM ADDRESS ").addEntity(AddressEntity.class).list();
-        System.out.println("addresses == " + addresses);
         return addresses;
     }
 
     @Override
-    public void setUserToAddress(int UserId, int AddressId) {
-        AddressEntity Address = sessionFactory.getCurrentSession().find(AddressEntity.class, AddressId);
-        Address.setUserId(UserId);
-        this.sessionFactory.getCurrentSession().update(Address);
+    public void setUserToAddress(int userId, int addressId) {
+        AddressEntity addressEntity = sessionFactory.getCurrentSession().find(AddressEntity.class, addressId);
+        addressEntity.setUserId(userId);
+        this.sessionFactory.getCurrentSession().update(addressEntity);
     }
 
 }

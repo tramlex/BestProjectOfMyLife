@@ -23,11 +23,12 @@ public class TransferDataToJsp {
     @RequestMapping(value = "/TransferDataToJsp", method = RequestMethod.GET)
     public ModelAndView addUsersAndAddressesToRequest() {
         List<UsersEntity> col = userService.getAllUsers();
-        System.out.println(col);
         List<AddressEntity> adr = addressService.getAllAddresses();
-        System.out.println(adr);
 
         ModelAndView data = new ModelAndView("dataTables");
+
+        data.addObject("col", col);
+        data.addObject("adr", adr);
 
         return data;
     }

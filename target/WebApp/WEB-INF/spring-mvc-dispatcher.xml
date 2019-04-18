@@ -8,17 +8,17 @@
   http://www.springframework.org/schema/context
   http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
 
-    <context:component-scan base-package="controllers" />
+    <context:component-scan base-package="controllers"/>
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value=""/>
         <property name="suffix" value=".jsp"/>
     </bean>
 
-    <bean id="userDAO" class="database.dao.user.UserDaoImpl"> </bean>
-    <bean id="userService" class="database.services.user.UserServiceImpl"> </bean>
-    <bean id="addressDAO" class="database.dao.address.AddressDaoImpl"> </bean>
-    <bean id="addressService" class="database.services.address.AddressServiceImpl"> </bean>
+    <bean id="userDAO" class="database.dao.user.UserDaoImpl"></bean>
+    <bean id="userService" class="database.services.user.UserServiceImpl"></bean>
+    <bean id="addressDAO" class="database.dao.address.AddressDaoImpl"></bean>
+    <bean id="addressService" class="database.services.address.AddressServiceImpl"></bean>
 
     <bean id="sessionFactory"
           class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">
@@ -45,7 +45,7 @@
         <property name="username" value="sa"/>
         <property name="password" value=""/>
     </bean>
-    <tx:annotation-driven />
+    <tx:annotation-driven/>
     <bean id="transactionManager"
           class="org.springframework.orm.hibernate5.HibernateTransactionManager">
         <property name="sessionFactory" ref="sessionFactory"/>

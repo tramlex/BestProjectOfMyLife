@@ -18,8 +18,6 @@ public class SetAddressForUser {
     @RequestMapping(value = "/SetAddressForUser", method = RequestMethod.GET)
     protected String setUserForAddress(@RequestParam(name = "user") Integer user, @RequestParam(name = "addressOf") Integer address) {
 
-        System.out.println(user);
-        System.out.println(address);
         addressService.setUserToAddress(user, address);
 
         return "redirect:/TransferDataToJsp";

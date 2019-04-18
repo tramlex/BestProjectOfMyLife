@@ -27,11 +27,7 @@ public class AddressServiceImpl implements AddressService {
 
     @Override
     @Transactional
-    public void setUserToAddress(int UserId, int AddressId) {
-        addressDao.setUserToAddress(UserId, AddressId);
-    }
-
-    public void setAddressDao(AddressDao addressDao) {
-        this.addressDao = addressDao;
+    public void setUserToAddress(int userId, int addressId) {
+        addressDao.setUserToAddress(userId, addressId);
     }
 }

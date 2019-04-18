@@ -9,5 +9,5 @@ public interface AddressDao {
 
     public List<AddressEntity> getAllAddresses();
 
-    public void setUserToAddress(int UserId, int AddressId);
+    public void setUserToAddress(int userId, int addressId);
 }
