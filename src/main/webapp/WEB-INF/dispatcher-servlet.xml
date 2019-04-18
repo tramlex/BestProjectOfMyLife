@@ -11,14 +11,14 @@
     <context:component-scan base-package="controllers" />
 
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/views/"/>
+        <property name="prefix" value=""/>
         <property name="suffix" value=".jsp"/>
     </bean>
 
-    <bean id="userDAO" class="database.dao.user.UserDaoImpl"></bean>
-    <bean id="UserManager" class="database.services.user.UserServiceImpl"></bean>
-    <bean id="addressDAO" class="database.dao.address.AddressDaoImpl"></bean>
-    <bean id="addressManager" class="database.services.address.AddressServiceImpl"></bean>
+    <bean id="userDAO" class="database.dao.user.UserDaoImpl"> </bean>
+    <bean id="userService" class="database.services.user.UserServiceImpl"> </bean>
+    <bean id="addressDAO" class="database.dao.address.AddressDaoImpl"> </bean>
+    <bean id="addressService" class="database.services.address.AddressServiceImpl"> </bean>
 
     <bean id="sessionFactory"
           class="org.springframework.orm.hibernate5.LocalSessionFactoryBean">

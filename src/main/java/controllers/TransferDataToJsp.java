@@ -30,7 +30,7 @@ public class TransferDataToJsp {
         System.out.println("col ==" + col);
         System.out.println("adr ==" + adr);
 
-        ModelAndView data = new ModelAndView("ManyToOne");
+        ModelAndView data = new ModelAndView("dataTables");
 
         data.addObject("col", col);
         data.addObject("adr", adr);

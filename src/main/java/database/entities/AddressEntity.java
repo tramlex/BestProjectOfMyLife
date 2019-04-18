@@ -13,10 +13,12 @@ public class AddressEntity {
     private Integer userId;
 
 @ManyToOne(fetch=FetchType.LAZY, cascade=CascadeType.ALL)
-@JoinColumn(name = "user_id")
+@JoinColumn(name = "fk_USERID")
 private UsersEntity usersEntity;
 
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "users_seq")
+    @SequenceGenerator(name = "users_seq", sequenceName = "SEQ_USER", allocationSize = 5)
     @Column(name = "AID", nullable = false)
     public int getAid() {
         return aid;

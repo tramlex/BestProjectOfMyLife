@@ -2,9 +2,7 @@ package database.entities;
 
 import javax.persistence.*;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 @Entity
 @Table(name = "USERS", schema = "PUBLIC", catalog = "TEST")
@@ -14,13 +12,12 @@ public class UsersEntity {
     private String name;
     private String sname;
 
-
 @OneToMany(fetch = FetchType.LAZY, mappedBy = "user", cascade = CascadeType.ALL)
-private List<AddressEntity> addressEntities;
-
-
+private List<AddressEntity> addressEntities = new ArrayList<AddressEntity>();
 
     @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "users_seq")
+    @SequenceGenerator(name = "users_seq", sequenceName = "SEQ_USER", allocationSize = 5)
     @Column(name = "ID", nullable = false)
     public int getId() {
         return id;

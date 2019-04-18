@@ -22,7 +22,7 @@
                 <td> <c:out value="${col.name}"/> </td>
                 <td> <c:out value="${col.sname}"/> </td>
                 <td> <c:out value="${col.fathername}"/> </td>
-                <td><input type="radio" value="<c:out value="${col.id}"/>" name = "User"/></td>
+                <td><input type="radio" value="<c:out value="${col.id}"/>" name = "user"/></td>
             </tr>
         </c:forEach>
     </table>
@@ -35,7 +35,7 @@
                 <td> <c:out value="${adr.street}"/> </td>
                 <td> <c:out value="${adr.house}"/> </td>
                 <td> <c:out value="${adr.room}"/> </td>
-                <td><input type="radio" value="<c:out value="${adr.aid}"/>" name = "AddressOf"/></td>
+                <td><input type="radio" value="<c:out value="${adr.aid}"/>" name = "addressOf"/></td>
             </tr>
         </c:forEach>
     </table>
