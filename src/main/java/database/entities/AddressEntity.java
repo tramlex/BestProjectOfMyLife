@@ -12,9 +12,10 @@ public class AddressEntity {
     private String street;
     private Integer userId;
 
-@ManyToOne(fetch=FetchType.LAZY, cascade=CascadeType.ALL)
-@JoinColumn(name = "fk_USERID")
-private UsersEntity usersEntity;
+    @ManyToOne(fetch = FetchType.LAZY,
+            cascade = CascadeType.ALL)
+    @JoinColumn(name = "user_id")
+    private UsersEntity usersEntity;
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "users_seq")

@@ -15,13 +15,13 @@ public class SetAddressForUser {
     @Autowired
     private AddressService addressService;
 
-    @RequestMapping(value = "/SetAddressForUser" , method = RequestMethod.GET)
-    protected String setUserForAddress(@RequestParam(name = "user")Integer user , @RequestParam(name = "addressOf")Integer address){
+    @RequestMapping(value = "/SetAddressForUser", method = RequestMethod.GET)
+    protected String setUserForAddress(@RequestParam(name = "user") Integer user, @RequestParam(name = "addressOf") Integer address) {
 
         System.out.println(user);
         System.out.println(address);
-        addressService.setUserToAddress(user,address);
+        addressService.setUserToAddress(user, address);
 
-        return "redirect:/TransferDataToJsp" ;
+        return "redirect:/TransferDataToJsp";
     }
 }

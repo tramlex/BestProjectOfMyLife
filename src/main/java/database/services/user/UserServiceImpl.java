@@ -9,19 +9,22 @@ import javax.transaction.Transactional;
 import java.util.List;
 
 @Service
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
     @Autowired
     private UserDao userDao;
+
     @Override
     @Transactional
-    public void saveUser(String name , String sname , String fname){
+    public void saveUser(String name, String sname, String fname) {
         userDao.saveUser(name, sname, fname);
     }
+
     @Override
     @Transactional
-    public List<UsersEntity> getAllUsers(){
+    public List<UsersEntity> getAllUsers() {
         return userDao.getAllUsers();
     }
+
     public void setUserDao(UserDao userDao) {
         this.userDao = userDao;
     }

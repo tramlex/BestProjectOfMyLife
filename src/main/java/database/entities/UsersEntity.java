@@ -1,7 +1,6 @@
 package database.entities;
 
 import javax.persistence.*;
-import java.util.ArrayList;
 import java.util.List;
 
 @Entity
@@ -12,8 +11,10 @@ public class UsersEntity {
     private String name;
     private String sname;
 
-@OneToMany(fetch = FetchType.LAZY, mappedBy = "user", cascade = CascadeType.ALL)
-private List<AddressEntity> addressEntities = new ArrayList<AddressEntity>();
+    @OneToMany(fetch = FetchType.LAZY,
+            mappedBy = "user",
+            cascade = CascadeType.ALL)
+    private List<AddressEntity> addressEntities;
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "users_seq")

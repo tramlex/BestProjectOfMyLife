@@ -9,23 +9,29 @@ import javax.transaction.Transactional;
 import java.util.List;
 
 @Service
-public class AddressServiceImpl implements AddressService{
+public class AddressServiceImpl implements AddressService {
     @Autowired
     private AddressDao addressDao;
+
     @Override
     @Transactional
-    public void saveAddress(String street , String house , String room){
+    public void saveAddress(String street, String house, String room) {
         addressDao.saveAddress(street, house, room);
     }
+
     @Override
     @Transactional
-    public List<AddressEntity> getAllAddresses(){
+    public List<AddressEntity> getAllAddresses() {
         return addressDao.getAllAddresses();
     }
+
     @Override
     @Transactional
-    public void setUserToAddress(int UserId , int AddressId){
+    public void setUserToAddress(int UserId, int AddressId) {
         addressDao.setUserToAddress(UserId, AddressId);
     }
-    public void setAddressDao(AddressDao addressDao){this.addressDao = addressDao;}
+
+    public void setAddressDao(AddressDao addressDao) {
+        this.addressDao = addressDao;
+    }
 }
