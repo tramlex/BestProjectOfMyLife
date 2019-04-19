@@ -34,7 +34,7 @@ public class AddressDaoImpl implements AddressDao {
     public void setUserToAddress(int userId, int addressId) {
         AddressEntity addressEntity = sessionFactory.getCurrentSession().find(AddressEntity.class, addressId);
         UsersEntity usersEntity = sessionFactory.getCurrentSession().find(UsersEntity.class,userId);
-        addressEntity.setUser(usersEntity);
+        addressEntity.setUsersEntity(usersEntity);
         this.sessionFactory.getCurrentSession().update(addressEntity);
     }
 

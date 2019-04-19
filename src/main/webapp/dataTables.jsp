@@ -30,12 +30,12 @@
     <table border="3">
         <c:forEach var="adr" items="${adr}">
             <tr>
-                <td><c:out value="${adr.aid}"/></td>
-                <td><c:out value="${adr.usersEntityId}"/></td>
+                <td><c:out value="${adr.id}"/></td>
+                <td><c:out value="${adr.usersEntity.id}"/></td>
                 <td><c:out value="${adr.street}"/></td>
                 <td><c:out value="${adr.house}"/></td>
                 <td><c:out value="${adr.room}"/></td>
-                <td><input type="radio" value="<c:out value="${adr.aid}"/>" name="addressOf"/></td>
+                <td><input type="radio" value="<c:out value="${adr.id}"/>" name="addressOf"/></td>
             </tr>
         </c:forEach>
     </table>

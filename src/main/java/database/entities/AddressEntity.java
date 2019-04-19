@@ -52,7 +52,7 @@ public class AddressEntity
     public UsersEntity getUsersEntity() {
         return usersEntity;
     }
-    public void setUser(UsersEntity usersEntity) {
+    public void setUsersEntity(UsersEntity usersEntity) {
         this.usersEntity = usersEntity;
     }
 

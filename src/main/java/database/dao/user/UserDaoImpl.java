@@ -19,6 +19,7 @@ public class UserDaoImpl implements UserDao {
         user.setSname(sname);
         user.setFathername(fname);
         this.sessionFactory.getCurrentSession().save(user);
+
     }
 
     @SuppressWarnings("unchecked")

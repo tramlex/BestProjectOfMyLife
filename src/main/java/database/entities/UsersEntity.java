@@ -27,7 +27,7 @@ public class UsersEntity
 
 
     @OneToMany(fetch = FetchType.LAZY,
-            mappedBy = "user",
+            mappedBy = "usersEntity",
             cascade = CascadeType.ALL)
     private List<AddressEntity> addressEntities;
 

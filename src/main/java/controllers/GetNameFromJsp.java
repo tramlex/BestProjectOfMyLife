@@ -1,6 +1,5 @@
 package controllers;
 
-
 import database.services.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
