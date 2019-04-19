@@ -1,7 +1,7 @@
 package database.dao.address;
 
-
 import database.entities.AddressEntity;
+import database.entities.UsersEntity;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
@@ -29,10 +29,12 @@ public class AddressDaoImpl implements AddressDao {
         return addresses;
     }
 
+
     @Override
     public void setUserToAddress(int userId, int addressId) {
         AddressEntity addressEntity = sessionFactory.getCurrentSession().find(AddressEntity.class, addressId);
-        addressEntity.setUserId(userId);
+        UsersEntity usersEntity = sessionFactory.getCurrentSession().find(UsersEntity.class,userId);
+        addressEntity.setUser(usersEntity);
         this.sessionFactory.getCurrentSession().update(addressEntity);
     }
 

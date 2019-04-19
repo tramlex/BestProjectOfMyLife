@@ -1,4 +1,4 @@
-<%--
+<%@ page import="database.entities.AddressEntity" %><%--
   Created by IntelliJ IDEA.
   User: ATimofeev
   Date: 12.04.2019
@@ -31,7 +31,7 @@
         <c:forEach var="adr" items="${adr}">
             <tr>
                 <td><c:out value="${adr.aid}"/></td>
-                <td><c:out value="${adr.userId}"/></td>
+                <td><c:out value="${adr.usersEntityId}"/></td>
                 <td><c:out value="${adr.street}"/></td>
                 <td><c:out value="${adr.house}"/></td>
                 <td><c:out value="${adr.room}"/></td>

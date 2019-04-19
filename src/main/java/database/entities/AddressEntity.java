@@ -1,97 +1,81 @@
 package database.entities;
 
 import javax.persistence.*;
-import java.util.Collection;
 
 @Entity
-@Table(name = "ADDRESS", schema = "PUBLIC", catalog = "TEST")
-public class AddressEntity {
-    private int aid;
-    private String house;
-    private String room;
-    private String street;
-    private Integer userId;
+@Table(name = "ADDRESS")
+public class AddressEntity
+{
+    @Id
+    @GeneratedValue    (strategy=GenerationType.SEQUENCE,
+            generator="users_seq")
+    @SequenceGenerator (name="users_seq",
+            sequenceName="SEQ_USER",
+            allocationSize=5)
+    @Column (name="aid")
+    private Integer id;
 
-    @ManyToOne(fetch = FetchType.LAZY,
-            cascade = CascadeType.ALL)
-    @JoinColumn(name = "user_id")
+    @ManyToOne (fetch=FetchType.LAZY,
+            cascade=CascadeType.ALL)
+    @JoinColumn (name="user_id")
     private UsersEntity usersEntity;
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "users_seq")
-    @SequenceGenerator(name = "users_seq", sequenceName = "SEQ_USER", allocationSize = 5)
-    @Column(name = "AID", nullable = false)
-    public int getAid() {
-        return aid;
+    @Column(name = "room")
+    private String room;
+
+    @Column(name = "street")
+    private String street;
+
+    @Column(name = "house")
+    private String house;
+
+    public AddressEntity()
+    {
+        super();
+    }
+    public AddressEntity(Integer id, UsersEntity usersEntity, String room , String street , String house)
+    {
+        super();
+        this.id = id;
+        this.usersEntity = usersEntity;
+        this.room = room;
+        this.street = street;
+        this.house = house;
     }
 
-    public void setAid(int aid) {
-        this.aid = aid;
+    public Integer getId() {
+        return id;
+    }
+    public void setId(Integer id) {
+        this.id = id;
+    }
+    public UsersEntity getUsersEntity() {
+        return usersEntity;
+    }
+    public void setUser(UsersEntity usersEntity) {
+        this.usersEntity = usersEntity;
     }
 
-    @Basic
-    @Column(name = "HOUSE", nullable = true, length = 32)
-    public String getHouse() {
-        return house;
+    public String getStreet() {
+        return street;
+    }
+    public void setStreet(String street) {
+        this.street = street;
     }
 
     public void setHouse(String house) {
         this.house = house;
     }
 
-    @Basic
-    @Column(name = "ROOM", nullable = true, length = 32)
-    public String getRoom() {
-        return room;
+    public String getHouse() {
+        return house;
     }
 
     public void setRoom(String room) {
         this.room = room;
     }
 
-    @Basic
-    @Column(name = "STREET", nullable = true, length = 64)
-    public String getStreet() {
-        return street;
-    }
-
-    public void setStreet(String street) {
-        this.street = street;
-    }
-
-    @Basic
-    @Column(name = "USER_ID", nullable = true)
-    public Integer getUserId() {
-        return userId;
-    }
-
-    public void setUserId(Integer userId) {
-        this.userId = userId;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        AddressEntity that = (AddressEntity) o;
-
-        if (aid != that.aid) return false;
-        if (house != null ? !house.equals(that.house) : that.house != null) return false;
-        if (room != null ? !room.equals(that.room) : that.room != null) return false;
-        if (street != null ? !street.equals(that.street) : that.street != null) return false;
-        if (userId != null ? !userId.equals(that.userId) : that.userId != null) return false;
-
-        return true;
-    }
-
-    @Override
-    public int hashCode() {
-        int result = aid;
-        result = 31 * result + (house != null ? house.hashCode() : 0);
-        result = 31 * result + (room != null ? room.hashCode() : 0);
-        result = 31 * result + (street != null ? street.hashCode() : 0);
-        result = 31 * result + (userId != null ? userId.hashCode() : 0);
-        return result;
+    public String getRoom() {
+        return room;
     }
 }

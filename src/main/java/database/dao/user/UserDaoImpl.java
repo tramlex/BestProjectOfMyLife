@@ -25,7 +25,6 @@ public class UserDaoImpl implements UserDao {
     @Override
     public List<UsersEntity> getAllUsers() {
         List<UsersEntity> users = sessionFactory.getCurrentSession().createSQLQuery("SELECT * FROM USERS").addEntity(UsersEntity.class).list();
-        System.out.println("users ==" + users);
         return users;
     }
 }
