@@ -1,5 +1,6 @@
 package controllers;
 
+import database.entities.UsersEntity;
 import database.services.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -15,7 +16,6 @@ public class GetNameFromJsp {
 
     @RequestMapping(value = "/GetNameFromJsp", method = RequestMethod.GET)
     protected String saveUser(@RequestParam(name = "name") String name, @RequestParam(name = "sname") String sname, @RequestParam(name = "fname") String fname) {
-
         userService.saveUser(name, sname, fname);
         return "redirect:name.jsp";
 

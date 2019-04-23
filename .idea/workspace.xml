@@ -7,26 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c90dbb4-da7a-43d7-9774-56de6cea005f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BestProjectOfMyLife.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BestProjectOfMyLife.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/controllers/GetNameFromJsp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controllers/GetNameFromJsp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/dao/address/AddressDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/dao/address/AddressDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/dao/user/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/dao/user/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/entities/AddressEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/entities/AddressEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/database/entities/UsersEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/database/entities/UsersEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/dataTables.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/dataTables.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/controllers/GetNameFromJsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/controllers/GetNameFromJsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/dao/address/AddressDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/dao/address/AddressDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/dao/user/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/dao/user/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/entities/AddressEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/entities/AddressEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/entities/UsersEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/WEB-INF/classes/database/entities/UsersEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/WebApp/dataTables.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/WebApp/dataTables.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/controllers/GetNameFromJsp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controllers/GetNameFromJsp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/dao/address/AddressDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database/dao/address/AddressDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/dao/user/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database/dao/user/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/entities/AddressEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database/entities/AddressEntity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/database/entities/UsersEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/database/entities/UsersEntity.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -201,11 +182,8 @@
       <file leaf-file-name="GetNameFromJsp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/controllers/GetNameFromJsp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="39" selection-start-line="2" selection-end-line="2" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -633,20 +611,21 @@
       <option name="presentableId" value="Default" />
       <updated>1555054880484</updated>
       <workItem from="1555054885945" duration="23766000" />
-      <workItem from="1555400687736" duration="45250000" />
+      <workItem from="1555400687736" duration="47199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69016000" />
+    <option name="totallyTimeSpent" value="70965000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.16089386" />
-      <window_info active="true" anchor="right" id="Maven Projects" order="0" visible="true" weight="0.10714286" />
+      <window_info anchor="right" id="Maven Projects" order="0" visible="true" weight="0.10714286" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="1" />
@@ -662,7 +641,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="4" weight="0.32960895" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="9" sideWeight="0.49946696" visible="true" weight="0.21117319" />
+      <window_info active="true" anchor="bottom" id="Run" order="9" sideWeight="0.49946696" visible="true" weight="0.21117319" />
       <window_info anchor="bottom" id="Spring" order="1" weight="0.32960895" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32960895" />
       <window_info id="Persistence" order="0" sideWeight="0.14589235" side_tool="true" visible="true" weight="0.15618336" />
@@ -754,9 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1058,11 +1034,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controllers/GetNameFromJsp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="39" selection-start-line="2" selection-end-line="2" selection-end-column="39" />
         </state>
       </provider>
     </entry>
